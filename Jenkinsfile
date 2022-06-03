@@ -26,7 +26,3 @@ pipeline {
         }
     }
 }
-
-node {
-    // groovy script
-}
