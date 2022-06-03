@@ -5,9 +5,6 @@ pipeline {
         stage('build') {
             steps {
                 echo 'building the application'
-            // sh 'cd app'
-            // sh 'yarn install'
-            // sh 'yarn build'
             }
         }
 
@@ -18,7 +15,7 @@ pipeline {
                 }
             }
         }
-        
+
         stage {
             stage('deploy') {
                 steps {
